@@ -12,7 +12,7 @@ Sample code: [Sample_OneDie.py](Sample_OneDie.py) or [Sample_OneDie_np.py](Sampl
 
 ## Problem 1: One die with S sides
 
-Sample code: [Sample_OneDieS.py](Sample_OneDieS.py) or [Sample_OneDie_np.py](Sample_OneDie_np.py)
+Sample code: [Sample_OneDieS.py](Sample_OneDieS.py) or [Sample_OneDieS_np.py](Sample_OneDieS_np.py)
 
 Suppose we have a die with S sides, where S is an integer, but not necessarily equal to 6. The set of possible outcomes is then {n|n = 1,...,S} (or {n|n = 0,...,S−1}, your choice). Assume that all sides of the die are equally probable, so that P(n) = 1/S. Since this is partly a computational problem, be sure to support your answers with data from your computer simulations.
 
