@@ -22,7 +22,7 @@ def OneDie(trials):
     print("s, N_s, N_s-N/6, N_s/N, N_s/N-1/6")
     j = 0
     while j < sides:
-        print(j+1, histogram[j], histogram[j]-trials/sides, histogram[j]/trials, histogram[j]/trials-1/6)
+        print(j+1, histogram[j], histogram[j]-trials/sides, histogram[j]/float(trials), histogram[j]/float(trials)-1.0/6)
         j = j + 1
 
     c2=time.clock()
